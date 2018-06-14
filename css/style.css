@@ -937,7 +937,8 @@ label[for="orange"], label[for="fraise"], label[for="kiwi"], label[for="cerise"]
 }
 .videoFond video {
     position: absolute;
-    width: 100%;
+    /* margin: 0 auto; */
+    width: 80%;
     z-index: 1;/* l'empilement de z-order : le 1 est plus bas que le 2 */
 }
 .videoTexte {
@@ -956,4 +957,87 @@ label[for="orange"], label[for="fraise"], label[for="kiwi"], label[for="cerise"]
     padding: 20px;
     font-size: 120%;
     border-radius: 15px;
+    text-align: center;
+}
+
+/* pour la vidéo youtube */
+
+iframe[src="https://www.youtube.com/embed/MHYWgf3VqoY"] {
+    width: 100%;
+}
+
+/* pour l'audio */
+
+.audio {
+    text-align: center;
+}
+ /* pour l'iframe */
+iframe[allowfullscreen] {
+    width: 100%;
+}
+
+.bordure {
+    border: 10px solid rgb(15, 108, 247);
+    background: linear-gradient(blue, red);
+    padding: 10px;
+}
+
+/* page animations */
+
+.infoBulle {
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    padding-top: 15px;
+    background: #444;
+    box-shadow: 0 0 50px #222 inset;
+}
+.infoBulle p {
+    text-align: center;
+    padding-top: 30px;
+}
+.infoBulle a {
+    color: #ccc;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+    text-shadow: 0 -2px 0 black;
+}
+.infoBulle a:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 1px 2px black;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.infoBulle a span {
+    position: absolute;
+    padding: 15px;
+    margin-top: 23px;
+    margin-left: -35px;
+    background: rgba(0,0,0,.9);
+    /* le contenu de span disparaît grâce à cette ligne */
+    opacity: 0;
+    color: #09c;
+    transition: .25s;
+    /* la mise à l'échelle transform: scale(0) fait disparaître aussi */
+    transform: scale(0) rotateZ(-12deg);
+    border-radius: 13px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+}
+.infoBulle a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+}
+
+.infoBulle a span:before {
+    /* à quoi sert ce truc Mila ?  */
+    content: ''; 
+    position: absolute;
+    top: -6px;
+    left: -10px;
+    border-bottom: 6px solid rgba(0,0,0,.9);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+
 }
