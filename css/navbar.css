@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* pour une navbar fixée en haut de l'écran */
+
+body {
+    background: pink;
+}
+
+.navbar {
+    background: lightgrey;
+    position: fixed; /* le menu est fixé en haut de page */
+    top: 0; /* tout en haut de page */
+    right: 0; /* tout à droite */
+    width: 100%; /* toute la largeur */
+    height: 60px;
+
+}
+
+.navbar a {
+    color: red;
+    text-align: center;
+    display: block;
+    float: right;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar a:hover {
+    color: crimson;
+    background: rgba(47, 47, 226, 0.493);
+
+}
+.logo {
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10px;
+    z-index: 10;
+    background: white;
+}
+.logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main {
+    height: 2000px; /* pour pouvoir scroller */
+    margin-top: 60px; /* une margin top égale ou supérieure à la hauteur de la nav */
+}
