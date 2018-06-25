@@ -184,6 +184,13 @@ main  {
 aside {
     height: 250px;
     background: #a6d6c3;
+    width: 30%;
+    float: left;
+}
+
+#accueil {
+    float: left;
+    width: 70%;
 }
 section     {
     margin-top: 50px;
@@ -535,7 +542,7 @@ color: green;
     height: 525px;
     float: left;
     width: 50%;
-    background:#205D67;    
+    background:#205D67;
     margin: 0;
     padding: 0;
 }
@@ -1171,5 +1178,23 @@ iframe[allowfullscreen] {
 
 #menuRotate dl:hover {
     transform: rotate(-180deg);
-    animation: bounceIn 3s ease-in-out;
+    animation: bounceIn 0.7s ease-in-out;
 }
+
+/* La règle @ @keyframes permet aux auteurs de définir les étapes qui composent la séquence d'une animation CSS. */
+
+@keyframes bounceIn {
+    from {transform: rotate(0deg);}/* de là ... from c'est 0% */
+    75% {transform:rotate(-200deg);}
+    90% {transform: rotate(-175deg);}
+    to {transform: rotate(-180deg);}/*... à de là to c'est 100%*/
+}
+
+@keyframes bounceOut {
+    from {transform: rotate(0deg);}/* de là ...  */
+    0% {transform:rotate(-180deg);}
+    10% {transform: rotate(-165deg);}
+    to {transform: rotate(-360deg);}/*... à de là */
+}
+
+/* FIN - THE END */

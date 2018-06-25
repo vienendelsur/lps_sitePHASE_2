@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background: pink;
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+
+#zoning1 {
+    background: #333;
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#zoning1 header {
+    height: 200px;
+    background: #F7F39A;
+}
+
+#zoning1 aside {
+   height: 600px;
+   width: 200px;
+   float: left;
+   background: #A3DE83;
+}
+
+#zoning1 section {
+   height: 600px;
+   width: 1000px;
+   float: left;
+   margin: 0;
+   padding: 0;
+	background: grey;
+}
+	
