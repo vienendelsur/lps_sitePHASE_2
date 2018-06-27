@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	/* background: olive; */
+	margin: 0 auto;
+	/* font-size: 1.2em; */
+    color: #333;
+    background-image: url(../img/motif.jpg);
+	background-position: top left;
+	background-repeat: repeat;
+}
+
+#zoning2 {
+    background: #ffd6d6;
+    width: 63.15%;
+    text-align: center;
+    margin: auto;
+}
+
+#zoning2 header {
+    height: 150px;
+    background: pink;
+}
+#zoning2 aside {
+    height: 600px;
+    width: 16.666667%;
+    float: left;
+	background: #7FF798;
+}
+
+#zoning2 .milieu {
+    float: left;
+    height: 600px;
+    width: 66.666667%;
+    /* margin:0;
+    padding: 0; */
+	background: #54F5CB;
+}
+
+
+.clear {
+    clear: both;
+}

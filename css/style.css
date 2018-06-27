@@ -217,11 +217,18 @@ button {
     right: 20px;
 }
 
-
+.boutonhaut {
+    font-size: 350%;
+    background: transparent; /* l'icône est transparente */
+    border: none;
+    color: #2c3e50;
+    position: fixed;/*  le button est fixe à 40px du bas et à 20 de la droite */
+    bottom: 40px;
+    right: 20px;
+}
 /* page texte voir aussi blockquote */
 
-.lemonada {
-}
+
 .clear {
     clear: both;
 }
