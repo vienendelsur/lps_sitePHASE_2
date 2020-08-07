@@ -6,11 +6,11 @@
 body {
 	/* background: olive; */
 	margin: 0 auto;
-	/* font-size: 1.2em; */
-    color: #333;
-    background-image: url(../img/motif.jpg);
+	font-size: 1.5em;
+    color: #fff;
+    /* background-image: url(../img/motif.jpg);
 	background-position: top left;
-	background-repeat: repeat;
+	background-repeat: repeat; */
 }
 
 #zoning2 {
@@ -37,5 +37,5 @@ body {
     width: 60%;
     /* margin:0;
     padding: 0; */
-	background: #54F5CB;
+	background: #b49b2c;
 }

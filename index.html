@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- les typos google font anton lemonada oswald -->
-        <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald" rel="stylesheet">  
-        <!-- font awesome en cdn -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <!-- font awesome en local -->
-        <!-- <link href="css/fontawesome-all.css" rel="stylesheet"> -->
-        <!-- la description qui s'affiche sur un résultat de recherche google -->
+    <!-- les typos google font anton lemonada oswald -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald" rel="stylesheet">  
+    <!-- font awesome en cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- font awesome en local -->
+    <!-- <link href="css/fontawesome-all.css" rel="stylesheet"> -->
+    <!-- la description qui s'affiche sur un résultat de recherche google -->
     <meta name="description" content="Site de la phase 2 Patrick Isola Pantin 2018/2019 LePoleS">
         <!-- les mots clefs utiles pour les moteurs de recherche moins utilisées de nos jours -->
     <meta name="keywords" content="HTML, CSS, patrick isola, lepoles, pantin">
@@ -21,75 +21,74 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-   
-        <header>
-            <div id="logo">
-                <a href="#logo">
-                    <button type="button"><i class="fas fa-arrow-circle-up" aria-hidden="true"></i></button>
-                </a>
-                <img src="img/logo.png" alt="logo">
-            </div><!-- fin id logo -->
-            <div id="slogan">
-                <a href="index.html" title="Mon premier site en HTLM accueil"><h1>Mon premier site en HTML5 et CSS3</h1></a>
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button"><i class="fas fa-arrow-circle-up" aria-hidden="true"></i></button>
+            </a>
+            <img src="img/logo.png" alt="logo">
+        </div><!-- fin id logo -->
+        <div id="slogan">
+            <a href="index.html" title="Mon premier site en HTLM accueil">
+                <h1>Mon premier site en HTML5 et CSS3</h1>
+            </a>
+        </div><!-- fin id slogan -->
+        <div id="social">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" aria-hidden="true"><i class="fab fa-facebook-square"></i></a>
+        </div><!-- fin id social -->
+        <div class="clear"></div>       
+    </header>
+
+    <nav>
+        <!-- zone du menu les liens pour passer de pages en pages -->
+        <div class="ancreNav">
+            <a href="index.html" title="Accueil" class="active">Accueil</a>
+            <a href="texte.html" title="Texte">Texte</a>
+            <a href="selecteur.html" title="Sélecteur">Sélecteur</a>
+            <a href="image.html" title="Image">Image</a>
+            <a href="position.html" title="Position">Position</a>
+            <a href="zoning.html" title="Zoning">Zoning</a>
+            <a href="tableau.html" title="Tableau">Tableau</a>
+            <a href="liste.html" title="Liste">Liste</a>
+            <a href="lien_menu.html" title="Lien">Lien</a>
+            <a href="formulaire.html" title="Formulaire">Formulaire</a>
+            <a href="multimedia.html" title="Multimédia">Multimédia</a>
+            <a href="animation.html" title="Animation">Animation</a>
+            <a href="recap.html" title="Récapitulatif">Récapitulatif</a>
+        </div>
+    </nav>
+
+    <main><!-- contenu principal -->
+        <aside><!-- contenu secondaire -->
+            <!-- de côté --><p>Dans cette aside en fait il n'y a rien ...</p>
+        </aside>
+        <section id="accueil"><!-- zone de contenu regroupement thématique, texte, titres etc. -->
+            <div>
+                <h2>Ici le titre 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium porro laborum eveniet earum autem iste blanditiis, beatae alias, totam deleniti aliquid numquam quod ipsam perspiciatis? Ducimus alias repudiandae et velit.</p>
+                <!-- zone supplémentaire de contenu div-->
             </div>
+            <span>
+                <h3>Ici un titre 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam corrupti. Labore esse id fugiat, quos et rem soluta. Vitae, repellendus rerum! Sunt, qui est. Voluptate sapiente nostrum animi vitae.</p>
+                <!-- zone supplémentaire de contenu span-->
+            </span>
+            <article>
+                <h4>Un titre 4</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit earum mollitia facere exercitationem veniam fuga tenetur accusamus dolores, tempore minima ipsam nihil aliquam harum quos unde dolorum saepe, odio pariatur.</p>
+                <!-- zone supplémentaire de contenu article-->
+            </article>
+            <article>
+                <a href="recap.html" title="La page qui récapitule un peu de CSS">Récapitulatif</a>
+            </article>
+        </section>
+        <div class="clear"></div>
+    </main><!-- fin main -->
+    <footer>
+        <!-- pied de page -->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus iste mollitia dolorum a omnis consequuntur sunt asperiores delectus quisquam explicabo ipsa corrupti molestias facilis sint modi id amet, distinctio minima?</p>
+    </footer>
 
-            <div id="social">
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/" target="_blank" aria-hidden="true"><i class="fab fa-facebook-square"></i></a>
-            </div><!-- fin id social -->
-
-            <div class="clear"></div>
-            
-        </header>
-
-        <nav>
-            <!-- zone du menu les liens pour passer de pages en pages -->
-            <div class="ancreNav">
-                <a href="index.html" title="Accueil" class="active">Accueil</a>
-                <a href="texte.html" title="Texte">Texte</a>
-                <a href="selecteur.html" title="Sélecteur">Sélecteur</a>
-                <a href="image.html" title="Image">Image</a>
-                <a href="position.html" title="Position">Position</a>
-                <a href="zoning.html" title="Zoning">Zoning</a>
-                <a href="tableau.html" title="Tableau">Tableau</a>
-                <a href="liste.html" title="Liste">Liste</a>
-                <a href="lien_menu.html" title="Lien">Lien</a>
-                <a href="formulaire.html" title="Formulaire">Formulaire</a>
-                <a href="multimedia.html" title="Multimédia">Multimédia</a>
-                <a href="animation.html" title="Animation">Animation</a>
-                <a href="recap.html" title="Récap">Récapitulatif</a>
-            </div>
-        </nav>
-
-        <main><!-- contenu principal -->
-            <aside><!-- contenu secondaire -->
-                <!-- de côté -->Dans cette aside en fait il n'y a rien ...
-            </aside>
-            <section id="accueil"><!-- zone de contenu regroupement thématique, texte, titres etc. -->
-                <div>
-                    <h2>Ici le titre 2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium porro laborum eveniet earum autem iste blanditiis, beatae alias, totam deleniti aliquid numquam quod ipsam perspiciatis? Ducimus alias repudiandae et velit.</p>
-                    <!-- zone supplémentaire de contenu div-->
-                </div>
-                <span>
-                    <h3>Ici un titre 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam corrupti. Labore esse id fugiat, quos et rem soluta. Vitae, repellendus rerum! Sunt, qui est. Voluptate sapiente nostrum animi vitae.</p>
-                    <!-- zone supplémentaire de contenu span-->
-                </span>
-                <article>
-                    <h4>Un titre 4</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit earum mollitia facere exercitationem veniam fuga tenetur accusamus dolores, tempore minima ipsam nihil aliquam harum quos unde dolorum saepe, odio pariatur.</p>
-                    <!-- zone supplémentaire de contenu article-->
-                </article>
-                <article>
-                    <a href="recap.html" title="LA page qui récapitule un peu de CSS">Récapitulatif</a>
-                </article>
-            </section>
-<div class="clear"></div>
-        </main><!-- fin main -->
-        <footer>
-            <!-- pied de page -->
-        </footer>
-    
 </body>
 </html>
