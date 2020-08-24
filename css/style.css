@@ -579,7 +579,7 @@ color: green;
 
 #zoning4 nav {
     height: 50px;
-    border: none;
+    /* border: none; */
 }
 
 #zoning4 section {
@@ -599,7 +599,7 @@ color: green;
 #zoning5 {
     background-color: #A3DE83;
     margin: 0 auto;
-    border: thin solid red;
+    /* border: thin solid red; */
     text-align: center;
 }
 
