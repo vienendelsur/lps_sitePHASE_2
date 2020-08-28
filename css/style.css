@@ -451,7 +451,7 @@ color: green;
     background: #984A59;
 }
 
-/* Exercice sur le float */
+/* Fin exercice sur le float */
 
 .flex {
     display: flex;
@@ -628,7 +628,7 @@ color: green;
     /* padding-top: 120px; */
 }
 
-#zoning5 .section .z1, .z2, .z3, .z4 p{
+#zoning5 .section .z1, .z2, .z3, .z4 p {
     line-height: 250px;
 }
 #zoning5 .z1, .z4 {
@@ -644,10 +644,12 @@ color: green;
     background: #F8D771;
 }
 
+/* zoning 6  */
+
 #zoning6 {
+    color: #fff;
     width: 800px;
     margin: 0 auto;
-    color: mediumblue;
 }
 #zoning6 header {
     /* background: #32ff32; */
@@ -746,7 +748,7 @@ width: 50%;
     color: white;
 }
 
-/* page tableau  */
+/* page tableau */
 
 .tableau table {
     border-collapse: collapse;
