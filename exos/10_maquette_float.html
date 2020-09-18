@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette responsive en float</title>
+</head>
+<body>
+    
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .bleu {
+        background-color: lightcyan;
+    }
+    /* Style the header */
+    header {
+      background-color: rgb(238, 225, 45);
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px; /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+    }
+    
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 300px; /* only for demonstration, should be removed */
+    }
+    
+    /* Clear floats after the columns */
+    section:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Style the footer */
+    footer {
+      background-color: rgb(233, 220, 37);
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+    
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>HTML CSS : une maquette responsive en float</h2>
+    <p>Dans cet exemple, nous avons un en-tête, 2 colonnes/boites et un pied de page</p>
+    <p>Sur un écran inférieur à 600px les colonnes se placeront les unes au dessus des autres </p>
+    
+    <p>Redimensionnez la fenêtre pour voir les colonnes qui se placent les unes au dessus des autres </p>
+    
+    <header>
+      <h2>Astérix le Gaulois</h2>
+    </header>
+    
+    <section>
+      <nav>
+        <p class="bleu">indications : &lt;nav> : 30%</p>
+        <ul>
+          <li><a href="#">Astérix</a></li>
+          <li><a href="#">Obélix</a></li>
+          <li><a href="#">Panoramix</a></li>
+          <li><a href="#">Bonemine</a></li>
+        </ul>
+      </nav>
+      
+      <article>
+        <p class="bleu">indications :  &lt;article> : 70%</p>
+        <h1>Astérix</h1>
+        <p>Astérix, anciennement Astérix le Gaulois, est une série de bande dessinée française créée le 29 octobre 1959 par le scénariste français René Goscinny et le dessinateur français Albert Uderzo dans le nᵒ 1 du journal français Pilote.</p>
+      </article>
+    </section>
+    
+    <footer>
+      <p>Pied de page</p>
+    </footer>
+    
+</body>
+</html>
