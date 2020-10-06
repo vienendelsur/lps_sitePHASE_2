@@ -49,27 +49,32 @@ table {
 }
 /*fin du reset eric meyer*/
 
-#container{
-    background: greenyellow;
-    width: 1200px;
-    margin: auto;
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 0.9em;
 }
 
-header{
+#container{
+    background: rgb(152, 189, 238);
+    width: 1200px;
+    margin: 10px auto;
+}
+
+header {
     height: 150px;
 }
 
-nav{
+nav {
     height:100px;
-    background: blue;
+    background: rgb(191, 191, 219);
 }
 
-section{
+section {
     height: auto;
-    background: pink;
+    background: rgb(235, 205, 210);
 }
 
-.image{
+.image {
     float: left;
     /*/position: relative;
     left:20%;*/
@@ -108,8 +113,11 @@ footer{
 }
 
 figcaption{
+	font-size: 1em;
     color: #fff;
-    width: 100%;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
     background: #000;
     opacity: 0.7;
     position: relative;
