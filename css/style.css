@@ -260,10 +260,10 @@ background: orchid;
     width: 500px;
 }
 
-/* .select *:last-child {
+.select *:last-child {
  font-size: 30px;
  border: thin solid #333;
-} */
+}
 
 .select .zoneA {
     color: orangered;
@@ -293,7 +293,7 @@ background: orchid;
 /* début page images */
 
 .imageFond {
-    background:#000 url(../img/fond.jpg) no-repeat;
+    background:#000 url('../img/fond.jpg') no-repeat;
     background-size: cover;
     margin-bottom: 20px;
 }
@@ -354,7 +354,6 @@ img[src="img/toureiffel.jpg"] {/* on ne cible que cette image là */
     background: yellow;
     width: 100px;
     height: 100px;
-
 }
 
 /* positions "relative" */
